@@ -1,0 +1,20 @@
+<div class="panel">
+  <h1 class="h3 mb-3">Log in</h1>
+  <form
+    onsubmit="
+      location.hash = '#/dashboard';
+      return false;
+    "
+  >
+    <div class="mb-3">
+      <label class="form-label" for="email">Email</label
+      ><input class="form-control" id="email" type="email" required />
+    </div>
+    <div class="mb-3">
+      <label class="form-label" for="pw">Password</label
+      ><input class="form-control" id="pw" type="password" required />
+    </div>
+    <button class="btn btn-primary w-100">Log in</button>
+  </form>
+  <p class="mt-3 mb-0 small">No account? <a href="#/register">Register</a></p>
+</div>

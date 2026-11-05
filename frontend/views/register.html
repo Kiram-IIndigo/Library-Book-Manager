@@ -1,0 +1,32 @@
+<div class="panel">
+  <h1 class="h3 mb-3">Create account</h1>
+  <form
+    onsubmit="
+      location.hash = '#/login';
+      return false;
+    "
+  >
+    <div class="mb-3">
+      <label class="form-label" for="name">Full name</label
+      ><input class="form-control" id="name" required />
+    </div>
+    <div class="mb-3">
+      <label class="form-label" for="remail">Email</label
+      ><input class="form-control" id="remail" type="email" required />
+    </div>
+    <div class="mb-3">
+      <label class="form-label" for="rpw">Password</label
+      ><input
+        class="form-control"
+        id="rpw"
+        type="password"
+        minlength="8"
+        required
+      />
+    </div>
+    <button class="btn btn-primary w-100">Register</button>
+  </form>
+  <p class="mt-3 mb-0 small">
+    Already registered? <a href="#/login">Log in</a>
+  </p>
+</div>

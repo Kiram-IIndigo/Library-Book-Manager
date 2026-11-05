@@ -1,0 +1,116 @@
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h1 class="h3 mb-0">Categories</h1>
+  <button
+    class="btn btn-primary"
+    data-bs-toggle="modal"
+    data-bs-target="#addModal"
+  >
+    Add category
+  </button>
+</div>
+<div class="panel">
+  <div class="table-responsive">
+    <table class="table mb-0">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Books</th>
+          <th class="text-end">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Science fiction</td>
+          <td>Speculative futures</td>
+          <td>31</td>
+          <td class="text-end">
+            <button
+              class="btn btn-sm btn-outline-secondary"
+              title="Placeholder: connected to the backend in Milestone 4"
+            >
+              Edit
+            </button>
+            <button
+              class="btn btn-sm btn-outline-danger"
+              title="Placeholder: connected to the backend in Milestone 4"
+            >
+              Delete
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>Fiction</td>
+          <td>Novels and stories</td>
+          <td>54</td>
+          <td class="text-end">
+            <button
+              class="btn btn-sm btn-outline-secondary"
+              title="Placeholder: connected to the backend in Milestone 4"
+            >
+              Edit
+            </button>
+            <button
+              class="btn btn-sm btn-outline-danger"
+              title="Placeholder: connected to the backend in Milestone 4"
+            >
+              Delete
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>Historical</td>
+          <td>Set in the past</td>
+          <td>22</td>
+          <td class="text-end">
+            <button
+              class="btn btn-sm btn-outline-secondary"
+              title="Placeholder: connected to the backend in Milestone 4"
+            >
+              Edit
+            </button>
+            <button
+              class="btn btn-sm btn-outline-danger"
+              title="Placeholder: connected to the backend in Milestone 4"
+            >
+              Delete
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div class="modal fade" id="addModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title h5">Add category</h2>
+        <button
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label class="form-label">Name</label><input class="form-control" />
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Description</label
+          ><input class="form-control" />
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-light" data-bs-dismiss="modal">Cancel</button
+        ><button
+          class="btn btn-primary"
+          data-bs-dismiss="modal"
+          title="Placeholder: connected to the backend in Milestone 4"
+        >
+          Save
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
